@@ -1,10 +1,13 @@
-import { redirect } from "next/navigation";
+"use client"
 
-export default function Home() {
-  redirect("/home");
+import AboutMe from "./AboutMe";
+import Projects from "./Projects";
 
-  return (
-    <h1>This is my homepage!</h1>
-  );
-
+export default function Page() {
+    return (
+        <div>
+            <AboutMe />
+            <Projects />
+        </div>
+    );
 }
