@@ -7,7 +7,7 @@ export default function AboutCard() {
     return (
         <div className="px-4 py-4 xl:col-span-1 show-md rounded-lg">
             <Image
-                src="/about/headshot.jpg"
+                src="/homepage/about/headshot.jpg"
                 width={124}
                 height={124}
                 className="rounded-full outline outline-1 outline-gray-100 outline-offset-4 shadow-xl"
