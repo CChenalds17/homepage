@@ -8,7 +8,7 @@ interface ProjectProps {
 
 export default function Project({ title, children }: ProjectProps) {
     const [isOpen, setIsOpen] = useState(false);
-
+    
     return (
         <div className="my-6">
             <div
