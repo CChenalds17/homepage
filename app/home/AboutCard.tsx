@@ -5,12 +5,12 @@ import Image from "next/image";
 
 export default function AboutCard() {
     return (
-        <div className="px-4 py-4 xl:col-span-1 show-md rounded-lg">
+        <div className="px-4 py-4 xl:col-span-1 show-md rounded-lg shadow-md shadow-gray-700">
             <Image
-                src="/homepage/about/headshot.jpg"
+                src="/about/headshot.jpg"
                 width={124}
                 height={124}
-                className="rounded-full outline outline-1 outline-gray-100 outline-offset-4 shadow-xl"
+                className="rounded-full outline outline-1 outline-gray-700 outline-offset-4 shadow-xl"
                 alt="Headshot of Charlie"
             />
             <h4 className="font-bold text-xl mt-4 mb-2">
