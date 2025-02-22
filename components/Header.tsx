@@ -18,7 +18,7 @@ export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="shadow-md w-full top-0 left-0">
+        <div className="shadow-sm shadow-gray-700 w-full top-0 left-0">
           <div className="md:px-72 py-6 px-7 md:flex justify-between items-center">
 
             <div className="flex text-3xl cursor-pointer items-center gap-2">
